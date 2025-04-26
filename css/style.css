@@ -509,9 +509,13 @@ button {
 
 
 /** service section **/
-
 .service {
      padding-top: 80px;
+     padding-bottom: 80px; /* Agregado para dar más espacio inferior */
+}
+
+.service_box {
+     margin-bottom: 40px; /* Espacio entre cada caja */
 }
 
 .service_box h3 {
@@ -522,18 +526,18 @@ button {
      font-weight: bold;
 }
 
-.mar_top {
-     margin-top: -35px;
-}
-
 .service_box p {
      color: #181818;
 }
 
 .service .read_more {
-     margin: 0 auto;
+     margin: 60px auto 0 auto;
      display: block;
-     margin-top: 60px;
+}
+
+/* Eliminamos o desactivamos la clase que causa el solapamiento */
+.mar_top {
+     margin-top: 0 !important;
 }
 
 
